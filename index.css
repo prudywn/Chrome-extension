@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&family=Sedan:ital@0;1&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(poker.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(13, 7, 37);
+    font-weight: bolder;
+    
+
+}
+
+.body {
+    border: 2px solid rgb(45, 44, 44);
+    border-radius: 20px;
+    background-color:navajowhite;
+    max-width: 80%;
+    
+    margin: auto;
+    background-color: rgba(125, 121, 117, 0.4);
+
+}
+
+h1 {
+    color: goldenrod;
+}
+
+#message-el {
+    font-style: italic;
+    font-size: 25px;
+}
+
+button{
+  width: 180px;
+  border: none;
+  border-radius: 15px;
+  background: rebeccapurple;
+  font-weight: bolder;
+  animation: moveButton 3s infinite;
+  padding: 10px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  font-family: 'Platypi';
+}
+
+.card{
+    animation: none;
+}
+
+.card:hover{
+    
+    transform:scale(1.2);
+    transition: 0.2s;
+}
+
+@keyframes moveButton {
+   0% , 50%, 100% {opacity: 1}
+    25%, 75% {opacity: 0.4} 
+}
+
+#player-el {
+    color:black;
+    font-weight: bolder;
+}
+
+.p {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(24, 11, 21);
+    font-family:Tahoma, Geneva, Verdana, sans-serif;
+}
